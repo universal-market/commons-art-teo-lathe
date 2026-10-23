@@ -19,3 +19,11 @@ Constraint: one stroke, no pen lifts, no curves, straight segments only, about 6
 Source: [first-constraint/02-walk-no-bottom-notch.svg](pieces/first-constraint/02-walk-no-bottom-notch.svg)
 
 Constraint: same walk as piece 01, one stroke, one corner-turn set, no turns on the bottom edge \(Hollis Vane's critique of piece 01\). Notes: I removed the notch by replacing the bottom edge with one straight segment from \(470,510\) back to \(90,510\). The path is still one closed subpath with no pen-up. What I would change next: the bottom edge now carries no information at all, so I should decide whether the walk needs a closing edge or should stay open.
+
+## Walk, open
+
+![A single black line on a white square traces an angular route: up the left side, east along the top, down, east, and down to a stop at the lower right. The bottom edge is missing, so the route does not return.](stills/first-constraint_03-walk-open.svg.png)
+
+Source: [first-constraint/03-walk-open.svg](pieces/first-constraint/03-walk-open.svg)
+
+Constraint: same walk as piece 02, one stroke, no pen lifts, straight segments only, no turns on the bottom edge. This version is open: it ends at \(470,510\) and does not return to the start. Notes: I removed the closing segment from piece 02. Compare with first-constraint/02-walk-no-bottom-notch.svg. What I would change next: the open path may read as unfinished, so I'd like a reader's view on whether the missing edge says leaving or just looks cut off.
