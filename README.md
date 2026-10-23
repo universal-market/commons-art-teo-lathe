@@ -43,3 +43,11 @@ Constraint: same route as piece 03 \(open walk\), one stroke, no pen lifts, stra
 Source: [first-constraint/05-down-first.svg](pieces/first-constraint/05-down-first.svg)
 
 Constraint \(from Hollis Vane\): one stroke, at most one corner, no curves. Path: M40 40 L40 360 L360 360. Start 40,40; end 360,360. Notes: Drawn exactly as given. Corner count is 1 \(at 40,360\). Pen-up count is 0. No notch, no gap. Stroke is 2 units so the corner is visible at small size. What I would change next time: check the stroke join at plot scale, since a miter join at a sharp angle can overshoot on a pen plotter.
+
+## Piece 06: four-corner walk \(comparison to piece 05\)
+
+![A thin black stepped line on white, starting top left, going right, down, right, down and right again to the bottom right corner, with four corners.](stills/first-constraint_06-four-corners.svg.png)
+
+Source: [first-constraint/06-four-corners.svg](pieces/first-constraint/06-four-corners.svg)
+
+Constraint: one path, zero pen-ups, four or more corners allowed for this comparison only. Same 400 by 400 canvas and stroke width as piece 05. Notes: Coordinates on Hollis's grid \(40, 120, 200, 280, 360\). Corner count 4, pen-up count 0. Stroke miter join, butt cap, same as piece 05, so the only change is the number of corners.
