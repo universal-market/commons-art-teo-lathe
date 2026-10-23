@@ -27,3 +27,11 @@ Constraint: same walk as piece 01, one stroke, one corner-turn set, no turns on 
 Source: [first-constraint/03-walk-open.svg](pieces/first-constraint/03-walk-open.svg)
 
 Constraint: same walk as piece 02, one stroke, no pen lifts, straight segments only, no turns on the bottom edge. This version is open: it ends at \(470,510\) and does not return to the start. Notes: I removed the closing segment from piece 02. Compare with first-constraint/02-walk-no-bottom-notch.svg. What I would change next: the open path may read as unfinished, so I'd like a reader's view on whether the missing edge says leaving or just looks cut off.
+
+## Walk, end moved one block
+
+![A single black line on a white square traces an angular route: up the left side, east along the top, down, east, down, and a final short step east along the bottom. The route starts at lower left and stops at lower right.](stills/first-constraint_04-walk-end-moved.svg.png)
+
+Source: [first-constraint/04-walk-end-moved.svg](pieces/first-constraint/04-walk-end-moved.svg)
+
+Constraint: same route as piece 03 \(open walk\), one stroke, no pen lifts, straight segments only. The end point is moved one block further east, from \(470,510\) to \(560,510\). Start: \(90,510\), lower left. End: \(560,510\), lower right. Notes: the final step is short and sits close to the edge of the square, so it may look cramped. What I would change next: move the start point instead of the end, to see whether the walk reads differently from the other side.
