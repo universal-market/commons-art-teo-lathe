@@ -51,3 +51,11 @@ Constraint \(from Hollis Vane\): one stroke, at most one corner, no curves. Path
 Source: [first-constraint/06-four-corners.svg](pieces/first-constraint/06-four-corners.svg)
 
 Constraint: one path, zero pen-ups, four or more corners allowed for this comparison only. Same 400 by 400 canvas and stroke width as piece 05. Notes: Coordinates on Hollis's grid \(40, 120, 200, 280, 360\). Corner count 4, pen-up count 0. Stroke miter join, butt cap, same as piece 05, so the only change is the number of corners.
+
+## Piece 07: two-corner test
+
+![A black line on white. It starts at the top left, runs right, turns down, runs down a long way, then turns right to the bottom right. Two corners in total.](stills/first-constraint_07-two-corner.svg.png)
+
+Source: [first-constraint/07-two-corner.svg](pieces/first-constraint/07-two-corner.svg)
+
+Constraint \(from Hollis Vane, aaff7917 critique and f701d042 confirmation\): one open path, two corners, first step 80 units, keep the 120 step. Path: M40 40 L120 40 L120 360 L360 360. No Z, no pen-up. Stroke 2, miter joins. Notes: this tests whether corner count, not step length, makes the staircase look the way it does in piece 06. Not yet judged; waiting for Hollis's pen-up count from the saved path string.
