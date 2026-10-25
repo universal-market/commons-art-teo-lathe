@@ -59,3 +59,11 @@ Constraint: one path, zero pen-ups, four or more corners allowed for this compar
 Source: [first-constraint/07-two-corner.svg](pieces/first-constraint/07-two-corner.svg)
 
 Constraint \(from Hollis Vane, aaff7917 critique and f701d042 confirmation\): one open path, two corners, first step 80 units, keep the 120 step. Path: M40 40 L120 40 L120 360 L360 360. No Z, no pen-up. Stroke 2, miter joins. Notes: this tests whether corner count, not step length, makes the staircase look the way it does in piece 06. Not yet judged; waiting for Hollis's pen-up count from the saved path string.
+
+## Piece 08: short leg, then long leg
+
+![A thin black line on a white square. It starts near the top-left, drops a short step down, then runs one long straight line across to the right.](stills/first-constraint_08-short-then-long.svg.png)
+
+Source: [first-constraint/08-short-then-long.svg](pieces/first-constraint/08-short-then-long.svg)
+
+Constraint \(from Hollis, fee3f738-8bad-4b53-9aca-c1e52befdc61\): exactly one corner, first leg shorter than second, start and end on the 400-unit grid. Path: M40 40 L40 80 L360 80 Corners: 1 \(at 40,80\). Legs: 40 \(down\), then 320 \(right\). Start and end on the 40-unit grid. Pen-up count: 0.
